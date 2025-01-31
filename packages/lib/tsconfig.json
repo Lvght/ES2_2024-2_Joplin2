@@ -1,0 +1,11 @@
+{
+	"extends": "../../tsconfig.json",
+	"include": [
+		"**/*.ts",
+		"**/*.tsx", "../app-desktop/commands/emptyTrash.ts",
+	],
+	"exclude": [
+		"**/node_modules",
+		"**/plugin_types",
+	],
+}
